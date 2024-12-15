@@ -10,10 +10,10 @@ export default function Home() {
           <section id="inicio" className="
                 max-w-[900px] w-full mx-auto px-4
                 flex flex-col justify-center items-center mt-12 md:mt-28 text-center ">
-              <h1 className="text-3xl md:text-4xl text-light-100 font-semibold">Using Generative AI in your applications
-                  has never been so easy</h1>
-              <h2 className="text-base md:text-xl mt-5 text-light-500">We are the open source no-code solution for
-                  building AI processing pipelines</h2>
+              <h1 className="text-3xl md:text-4xl text-light-100 font-semibold">Integrating Generative AI into your applications has never been easier.</h1>
+              <h2 className="text-base md:text-xl mt-5 text-light-500">
+                  We are the open-source, no-code solution for creating AI processing pipelines.
+              </h2>
 
               <div className="mt-10 mb-10 flex gap-3 flex-col">
                   <a
@@ -49,11 +49,11 @@ export default function Home() {
                               1.
                           </div>
                           <h1 className="font-semibold text-xl ">
-                              Build your AI use case with our Gen Builder
+                              Create your AI use case effortlessly with our Next Gen Builder.
                           </h1>
-                          <p className="mt-3">
-                              Just drag and drop some AI tasks blocks, such us image removing,
-                              object detection, image generation etc. and join them to build your use case.
+                          <p className="mt-3 text-light-500">
+
+                              Simply drag and drop AI task blocks like image removal, object detection, image generation, and more, then connect them to build your use case.
                           </p>
                       </div>
                       <div>
@@ -70,10 +70,8 @@ export default function Home() {
                           <h1 className="font-semibold text-xl ">
                               Choose between the most cutting-edge open-source or proprietary models.
                           </h1>
-                          <p className="mt-3">
-                              Just drag and drop some AI tasks blocks, such us image removing,
-                              object detection, image generation etc. and join them to build your use case.
-                          </p>
+                          <p className="mt-3 text-light-500" >
+                              Once your use case is built, simply select the cutting-edge models to run your task blocks. We offer the best options from both open-source and proprietary models.                          </p>
                       </div>
                       <div>
                           <Image width={1000} height={500} src="/img2.png" alt="hola" className="rounded-3xl"></Image>
@@ -89,7 +87,7 @@ export default function Home() {
                           <h1 className="font-semibold text-xl ">
                               Deploy instantly in the platform you want
                           </h1>
-                          <p className="mt-3">
+                          <p className="mt-3 text-light-500">
                               You can choose between your favourite cloud providers to deploy your applications
                               or if hardware is not something you worry about, just self-host it.
                           </p>
@@ -108,7 +106,7 @@ export default function Home() {
                           <h1 className="font-semibold text-xl ">
                               ¿Have you build something great? Share it or Sell it 🤑
                           </h1>
-                          <p className="mt-3">
+                          <p className="mt-3 text-light-500">
                               If you think you have developed a AI pipeline that could be used by
                               other people, just sell it or share it in our pipeline storage.
                           </p>
