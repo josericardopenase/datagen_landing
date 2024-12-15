@@ -39,6 +39,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
                         className="text-light-100 hover:text-brand_secondary-500 cursor-pointer"
                     >
                         <FaLinkedin size={22}></FaLinkedin>
+
                     </a>
                 </div>
             </div>
