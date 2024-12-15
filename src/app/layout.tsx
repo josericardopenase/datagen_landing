@@ -1,6 +1,5 @@
 import "./globals.css";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Script from 'next/script';
 import Header from "@/components/Header";
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
