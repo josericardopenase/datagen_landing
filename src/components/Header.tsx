@@ -1,22 +1,15 @@
 "use client";
 
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 import {MdMenu} from "react-icons/md";
 import {IoMdClose} from "react-icons/io";
 import {FiArrowUpRight} from "react-icons/fi";
-import { Popover } from '@ark-ui/react/popover'
 import {
-    BiChevronDown,
     BiCog,
     BiData,
-    BiHeart,
     BiImage,
-    BiMale,
-    BiSolidData,
-    BiSolidEyedropper,
     BiTrash
 } from "react-icons/bi";
-import {usePathname} from "next/navigation";
 import {HeaderElement} from "@/components/HeaderElement";
 
 
