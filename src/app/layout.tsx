@@ -20,21 +20,18 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
                 <div className="flex gap-5">
                     <a
                         target="_blank"
-                        href="https://www.facebook.com/people/Bilern/61557437200399/"
                         className="text-light-100 hover:text-brand_secondary-500 cursor-pointer"
                     >
                         <FaFacebook size={22}></FaFacebook>
                     </a>
                     <a
                         target="_blank"
-                        href="https://www.instagram.com/bilern_team/?hl=es"
                         className="text-light-100 hover:text-brand_secondary-500 cursor-pointer"
                     >
                         <FaInstagram size={22}></FaInstagram>
                     </a>
                     <a
                         target="_blank"
-                        href="https://es.linkedin.com/company/bilern"
                         className="text-light-100 hover:text-brand_secondary-500 cursor-pointer"
                     >
                         <FaLinkedin size={22}></FaLinkedin>
