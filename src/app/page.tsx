@@ -85,11 +85,10 @@ export default function Home() {
                               3.
                           </div>
                           <h1 className="font-semibold text-xl ">
-                              Deploy instantly in the platform you want
+                              Deploy instantly on the platform of your choice.
                           </h1>
                           <p className="mt-3 text-light-500">
-                              You can choose between your favourite cloud providers to deploy your applications
-                              or if hardware is not something you worry about, just self-host it.
+                              Choose your favorite cloud provider to deploy your applications, or self-host them if hardware is not a concern.
                           </p>
                       </div>
                       <div>
@@ -104,11 +103,10 @@ export default function Home() {
                               4.
                           </div>
                           <h1 className="font-semibold text-xl ">
-                              ¿Have you build something great? Share it or Sell it 🤑
+                              Built something amazing? Share it or sell it 🤑!
                           </h1>
                           <p className="mt-3 text-light-500">
-                              If you think you have developed a AI pipeline that could be used by
-                              other people, just sell it or share it in our pipeline storage.
+                              If you've developed an AI pipeline that others could benefit from, share it or sell it in our pipeline marketplace.
                           </p>
                       </div>
                       <div>
