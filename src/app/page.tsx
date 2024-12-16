@@ -72,7 +72,7 @@ export default function Home() {
                         gap-10
                      ">
                   <h1 className="text-3xl md:text-3xl text-light-100 font-semibold">Common use cases</h1>
-                  <div className="grid grid-cols-2 gap-3 w-full">
+                  <div className="grid lg:grid-cols-2 gap-3 w-full">
                       {
                           items.map((x) => (
                               <div className="w-full items-center flex bg-dark-700 p-4 gap-3  rounded-2xl cursor-pointer">
