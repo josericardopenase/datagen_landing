@@ -74,8 +74,8 @@ export default function Home() {
                   <h1 className="text-3xl md:text-3xl text-light-100 font-semibold">Common use cases</h1>
                   <div className="grid lg:grid-cols-2 gap-3 w-full">
                       {
-                          items.map((x) => (
-                              <div className="w-full items-center flex bg-dark-700 p-4 gap-3  rounded-2xl cursor-pointer">
+                          items.map((x, i) => (
+                              <div key={i} className="w-full items-center flex bg-dark-700 p-4 gap-3  rounded-2xl cursor-pointer">
                                   <div className="min-w-[60px] text-light-300 text-2xl min-h-[60px] flex justify-center items-center rounded-xl bg-dark-800">
                                       {
                                           x.icon
