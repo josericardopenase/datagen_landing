@@ -1,9 +1,6 @@
 import Image from "next/image";
 import {FiArrowUpRight} from "react-icons/fi";
-import {PiTargetBold} from "react-icons/pi";
-import {TbCodeOff} from "react-icons/tb";
-import {IoRocket} from "react-icons/io5";
-import {BiCog, BiData, BiImage, BiTrash} from "react-icons/bi";
+import {BiCog, BiImage} from "react-icons/bi";
 import React from "react";
 import {FaSailboat} from "react-icons/fa6";
 import {FaBalanceScale} from "react-icons/fa";
